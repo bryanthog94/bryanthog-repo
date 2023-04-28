@@ -1,8 +1,8 @@
 on: [workflow_dispatch]
 name: AzureKeyVault
 env:
-  kvname: bryanthogkey
-  secretname: woopigsooie
+  kvname: learnkeyvault28
+  secretname: bryanthogkey
 jobs:
   access-keyvault:
     runs-on: ubuntu-latest
