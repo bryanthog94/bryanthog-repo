@@ -1,5 +1,7 @@
 on: [workflow_dispatch]
+
 name: AzureKeyVault
+
 env:
   kvname: learnkeyvault208
   secretname: bryanthogkey
@@ -12,7 +14,7 @@ jobs:
         uses: azure/login@v1
         with:
           creds: '${{ secrets.AZURE_CREDENTIALS }}'
- 
+          
       - name: Access Secret from Key Vault
         uses: azure/CLI@v1
         with:
