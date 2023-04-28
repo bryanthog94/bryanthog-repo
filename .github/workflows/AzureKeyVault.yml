@@ -1,7 +1,7 @@
 on: [workflow_dispatch]
 name: AzureKeyVault
 env:
-  kvname: learnkeyvault28
+  kvname: learnkeyvault208
   secretname: bryanthogkey
 jobs:
   access-keyvault:
